@@ -30,8 +30,8 @@ The dataset contains anonymized information from January 2017, including:
 ## Tech Stack
 - **Languages**: Python (PEP8 compliant), SQL
 - **Database**: PostgreSQL
-- **Libraries**: pandas, numpy, scikit-learn, SQLAlchemy, matplotlib, seaborn
-- **Tools**: Jupyter Notebook, pgAdmin, Poetry for dependency management
+- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn
+- **Tools**: Jupyter Notebook, pgAdmin, Poetry for dependency management, Pyenv
 
 ---
 
@@ -49,7 +49,7 @@ The dataset contains anonymized information from January 2017, including:
    - Identified patterns and outliers.
 
 4. **Clustering**
-   - Tested different algorithms (e.g., K-Means) and hyperparameters.
+   - Tested different algorithms (e.g., K-Means, DBSCAN, Agglomerative Clustering) and hyperparameters.
    - Selected the most stable and interpretable model.
 
 5. **Segment Profiling**
@@ -64,8 +64,9 @@ The dataset contains anonymized information from January 2017, including:
 
 ## Deliverables
 - **Notebook 1**: SQL queries for dashboard integration
-- **Notebook 2**: EDA and clustering approach trials
-- **Notebook 3**: Model update simulation
+- **Notebook 2**: EDA clustering approach trials
+- **Notebook 3**: Clustering approach trials
+- **Notebook 4**: Model update simulation
 - **Presentation**: Segmentation logic and marketing recommendations
 
 ---
@@ -73,7 +74,6 @@ The dataset contains anonymized information from January 2017, including:
 ## Repository Structure
 data/             # Raw CSV files (ignored in .gitignore)
 notebooks/        # Jupyter notebooks
-src/              # Python scripts (data loading, SQL queries, clustering)
 livrables/        # Final reports, presentations, exports
 .env              # Environment variables (DB connection string)
 pyproject.toml    # Poetry dependencies
